@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+.search label,
+.category label {
+	top: 0;
+	left: 5px;
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+input,
+select {
+	outline: none;
+}
+
+.search:hover label,
+.category:hover label {
+	top: -2.3rem;
+	left: 5px;
+}
+
+.cat-btn {
+	animation-name: animateBtn;
+	animation-duration: 0.3s;
+	animation-timing-function: ease-in-out;
+}
+
+input:checked {
+	border: none;
+	background-color: #ff6900 !important;
+}
+@media (min-width: 1366px) {
+	.container {
+		width: 1366px;
+		margin: auto;
+	}
+}
+
+@keyframes animateBtn {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
