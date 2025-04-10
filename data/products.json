@@ -1,17 +1,41 @@
 {
 	"categories": [
-		{ "id": 1, "name": "Burgers" },
-		{ "id": 2, "name": "Pizzas" },
-		{ "id": 4, "name": "Pasta" },
-		{ "id": 5, "name": "Desserts" },
-		{ "id": 6, "name": "Drinks" },
-		{ "id": 7, "name": "Sandwiches" },
-		{ "id": 8, "name": "Appetizers" },
-		{ "id": 9, "name": "Breakfast" }
+		{
+			"id": "1",
+			"name": "Burgers"
+		},
+		{
+			"id": "2",
+			"name": "Pizzas"
+		},
+		{
+			"id": "4",
+			"name": "Pasta"
+		},
+		{
+			"id": "5",
+			"name": "Desserts"
+		},
+		{
+			"id": "6",
+			"name": "Drinks"
+		},
+		{
+			"id": "7",
+			"name": "Sandwiches"
+		},
+		{
+			"id": "8",
+			"name": "Appetizers"
+		},
+		{
+			"id": "9",
+			"name": "Breakfast"
+		}
 	],
 	"menu": [
 		{
-			"id": 12,
+			"id": "12",
 			"name": "Basta",
 			"description": "Spaghetti pasta served with a rich, slow-cooked beef and tomato sauce, topped with parmesan cheese.",
 			"price": 13.99,
@@ -21,7 +45,7 @@
 			"count": 0
 		},
 		{
-			"id": 7,
+			"id": "7",
 			"name": "Spaghetti Bolognese",
 			"description": "Spaghetti pasta served with a rich, slow-cooked beef and tomato sauce, topped with parmesan cheese.",
 			"price": 13.99,
@@ -31,7 +55,7 @@
 			"count": 0
 		},
 		{
-			"id": 3,
+			"id": "3",
 			"name": "Margherita Pizza",
 			"description": "A classic pizza topped with mozzarella cheese, fresh tomatoes, basil, and a drizzle of olive oil.",
 			"price": 11.99,
@@ -40,9 +64,8 @@
 			"image": "https://foodish-api.com/images/pizza/pizza7.jpg",
 			"count": 0
 		},
-
 		{
-			"id": 15,
+			"id": "15",
 			"name": "Chocolate Lava Cake",
 			"description": "A warm chocolate cake with a molten center, served with vanilla ice cream.",
 			"price": 5.99,
@@ -52,7 +75,7 @@
 			"count": 0
 		},
 		{
-			"id": 9,
+			"id": "9",
 			"name": "Chocolate Lava Cake",
 			"description": "A warm chocolate cake with a molten center, served with vanilla ice cream.",
 			"price": 5.99,
@@ -62,7 +85,7 @@
 			"count": 0
 		},
 		{
-			"id": 17,
+			"id": "17",
 			"name": "Pancake Stack",
 			"description": "Fluffy pancakes served with maple syrup and fresh berries.",
 			"price": 7.99,
@@ -72,7 +95,7 @@
 			"count": 0
 		},
 		{
-			"id": 2,
+			"id": "2",
 			"name": "Veggie Burger",
 			"description": "A savory veggie patty made with black beans, quinoa, and spices, topped with lettuce, tomato, and avocado.",
 			"price": 9.49,
@@ -82,7 +105,7 @@
 			"count": 0
 		},
 		{
-			"id": 10,
+			"id": "10",
 			"name": "Vanilla Ice Cream",
 			"description": "A classic scoop of rich, creamy vanilla ice cream.",
 			"price": 3.99,
@@ -92,7 +115,7 @@
 			"count": 0
 		},
 		{
-			"id": 5,
+			"id": "5",
 			"name": "Ice Cream",
 			"description": "A classic scoop of rich, creamy vanilla ice cream.",
 			"price": 3.99,
@@ -101,9 +124,8 @@
 			"image": "https://foodish-api.com/images/dessert/dessert20.jpg",
 			"count": 0
 		},
-
 		{
-			"id": 14,
+			"id": "14",
 			"name": "Pizza",
 			"description": "A delicious pizza topped with mozzarella cheese and pepperoni slices, baked to perfection.",
 			"price": 12.99,
@@ -113,7 +135,7 @@
 			"count": 0
 		},
 		{
-			"id": 4,
+			"id": "4",
 			"name": "Pepperoni Pizza",
 			"description": "A delicious pizza topped with mozzarella cheese and pepperoni slices, baked to perfection.",
 			"price": 12.99,
@@ -123,7 +145,7 @@
 			"count": 0
 		},
 		{
-			"id": 11,
+			"id": "11",
 			"name": "Coca Cola",
 			"description": "A classic carbonated soft drink.",
 			"price": 1.99,
@@ -133,7 +155,7 @@
 			"count": 0
 		},
 		{
-			"id": 18,
+			"id": "18",
 			"name": "Omelette Deluxe",
 			"description": "Three-egg omelette with mushrooms, cheese, peppers, and your choice of meat or veggies.",
 			"price": 8.99,
@@ -143,7 +165,7 @@
 			"count": 0
 		},
 		{
-			"id": 8,
+			"id": "8",
 			"name": "Penne Alfredo",
 			"description": "Penne pasta tossed in a creamy Alfredo sauce with a hint of garlic and parmesan cheese.",
 			"price": 12.49,
@@ -153,7 +175,7 @@
 			"count": 0
 		},
 		{
-			"id": 1,
+			"id": "1",
 			"name": "Classic Burger",
 			"description": "A juicy beef patty with fresh lettuce, tomato, and cheddar cheese, served in a toasted brioche bun.",
 			"price": 8.99,
@@ -163,7 +185,7 @@
 			"count": 0
 		},
 		{
-			"id": 13,
+			"id": "13",
 			"name": "Club Sandwich",
 			"description": "Triple-layer sandwich with chicken, lettuce, tomato, bacon, and mayo, served with fries.",
 			"price": 9.99,
@@ -173,7 +195,7 @@
 			"count": 0
 		},
 		{
-			"id": 16,
+			"id": "16",
 			"name": "Buffalo Wings",
 			"description": "Spicy buffalo chicken wings served with ranch or blue cheese dip.",
 			"price": 7.99,
@@ -182,9 +204,8 @@
 			"image": "https://foodish-api.com/images/samosa/samosa5.jpg",
 			"count": 0
 		},
-
 		{
-			"id": 6,
+			"id": "6",
 			"name": "Burger",
 			"description": "Two beef patties, two slices of cheddar cheese, lettuce, and pickles in a sesame bun.",
 			"price": 10.99,
@@ -194,7 +215,7 @@
 			"count": 0
 		},
 		{
-			"id": 27,
+			"id": "27",
 			"name": "Double Cheeseburger",
 			"description": "Two beef patties, two slices of cheddar cheese, lettuce, and pickles in a sesame bun.",
 			"price": 10.99,
@@ -204,7 +225,7 @@
 			"count": 0
 		},
 		{
-			"id": 19,
+			"id": "19",
 			"name": "Chicken Caesar Wrap",
 			"description": "Grilled chicken breast wrapped with romaine lettuce, Caesar dressing, and parmesan.",
 			"price": 8.49,
@@ -214,7 +235,7 @@
 			"count": 0
 		},
 		{
-			"id": 21,
+			"id": "21",
 			"name": "BBQ Chicken Pizza",
 			"description": "Thin crust pizza topped with BBQ sauce, grilled chicken, red onions, and cilantro.",
 			"price": 13.49,
@@ -224,7 +245,7 @@
 			"count": 0
 		},
 		{
-			"id": 23,
+			"id": "23",
 			"name": "Mac & Cheese",
 			"description": "Classic mac and cheese with creamy cheddar sauce and crispy topping.",
 			"price": 9.49,
@@ -234,7 +255,7 @@
 			"count": 0
 		},
 		{
-			"id": 26,
+			"id": "26",
 			"name": "Chili Cheese Fries",
 			"description": "Golden fries topped with spicy beef chili and melted cheddar cheese.",
 			"price": 6.49,
@@ -244,7 +265,7 @@
 			"count": 0
 		},
 		{
-			"id": 24,
+			"id": "24",
 			"name": "Butter Chicken",
 			"description": "Sourdough toast topped with smashed avocado, cherry tomatoes, and poached egg.",
 			"price": 7.49,
@@ -254,7 +275,7 @@
 			"count": 0
 		},
 		{
-			"id": 20,
+			"id": "20",
 			"name": "Tiramisu",
 			"description": "Classic Italian dessert layered with coffee-soaked ladyfingers and mascarpone.",
 			"price": 6.99,
@@ -264,7 +285,7 @@
 			"count": 0
 		},
 		{
-			"id": 25,
+			"id": "25",
 			"name": "Idly",
 			"description": "Fresh cucumbers, tomatoes, olives, red onions, and feta tossed in olive oil dressing.",
 			"price": 6.99,
@@ -274,7 +295,7 @@
 			"count": 0
 		},
 		{
-			"id": 28,
+			"id": "28",
 			"name": "Biryani",
 			"description": "Strong and rich shot of premium espresso.",
 			"price": 2.99,

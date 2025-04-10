@@ -1,10 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Title from '../components/Title';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+	const [admin, setAdmin] = useState(true);
 	return (
 		<div className="px-6 py-4 flex flex-col justify-center items-center gap-6 h-[90vh]">
+			<div className="fixed end-9 bottom-9 cursor-default">
+				<section className="secret text-center flex items-center justify-center font-bold">
+					<p>Hey!</p>
+					<div className="flex flex-col gap-3 items-center">
+						{admin && (
+							<>
+								<p>Are you admin? 🤔</p>
+								<div className="flex gap-2">
+									<Link
+										to="/admin"
+										className="btn">
+										Yes
+									</Link>
+									<button
+										className="btn"
+										onClick={() => {
+											setAdmin(false);
+										}}>
+										No
+									</button>
+								</div>
+							</>
+						)}
+
+						{!admin && (
+							<>
+								<p>Well, thanks for your honesty! 🤨</p>
+							</>
+						)}
+					</div>
+				</section>
+			</div>
 			<div className="flex flex-col items-center gap-6">
 				<h1 className="text-7xl">
 					<span className="font-bold">Welcome to</span> <Title />{' '}
